@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate",
+  "name": "nephxlin-boilerplate",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -17,7 +17,8 @@
   },
   "lint-staged": {
     "src/**/*": [
-      "yarn lint --fix", "yarn test --bail"
+      "yarn lint --fix", 
+      "yarn test --findRelatedTests --bail"
     ]
   },
   "dependencies": {
