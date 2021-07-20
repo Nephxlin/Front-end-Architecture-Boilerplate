@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Main /> shold render the heading 1`] = `
+<main>
+  <h1>
+    Nephxlin
+  </h1>
+</main>
+`;
